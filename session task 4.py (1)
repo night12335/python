@@ -1,0 +1,14 @@
+# check given number is prim or not 
+
+
+a = 1 
+count = 1 
+n = int (input( " inter the number to check it is prim or not : " ))
+a = n // 3 
+for i in range(3, a + 1):
+    if  n == 0:
+        print("the given number is nit prime ")
+        count = 1 
+        break 
+    if (count == 0 ):
+        print ("the given number is prime ")
